@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+ <html> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Recipe search</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class = "container">
+            <div class ="row text-center">
+                <div class = "col-sm-3">
+                    <h1>Search recipe by the ingredient(s)</h1>
+                    <h2>Type ingredient(s) here:</h2>
+                    <!-- user input -->
+                    <input id = "search" placeholder = "Separate multiple by comma" autofocus/>
+                    <br><br>
+                    <!-- user submit -->
+                    <button id = "searchBtn" class = "btn btn-primary btn-lg btn-block">Search</button>
+                </div>
+                <div class="col-sm-9">
+                    <!-- display result -->
+                    <div id ="results"></div>
+                    <div id ="recipe"></div>
+                </div>
+            </div>
+        </div>
+        <script src="js/main.js" async defer></script>
+    </body>
+</html>
